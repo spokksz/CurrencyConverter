@@ -4,7 +4,13 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Welcome to the Currency Converter!");
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            DisplayConverter display = new DisplayConverter();
+            display.ShowWelcomeMessage();
+            display.ShowLoadingAnimation();
+            display.ShowOptions();
+
         }
     }
 }
