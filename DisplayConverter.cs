@@ -67,7 +67,7 @@ namespace CurrencyConverter
         public void ShowLoadingAnimation()
         {
             Console.Clear();
-            Console.WriteLine("Loading...");
+            Console.Write("Loading");
             for (int i = 0; i < 3; i++)
             {
                 Console.Write(".");

@@ -10,7 +10,7 @@
             display.ShowWelcomeMessage();
             display.ShowLoadingAnimation();
             display.ShowOptions();
-
+            
         }
     }
 }
